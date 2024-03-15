@@ -1,0 +1,32 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* 
+  medidas absolutas 
+  cm,mm,in,px, pt, pc
+
+  medidas relativas 
+  em, ex, rem, vw,vh, %
+
+  recomendado o uso do px e em
+
+  16px geralmente 1em
+  */
+  
+
+    /*Short Hand Font
+      pode definir tudo sobre a font em uma unica linha
+      declaração: font: font-style font weight font-size font-family
+    */
+
+    h1{
+      font:  800 2em Arial 
+    }
+
+    h2{
+      font: 500 1.5em Arial
+    }
+
+    p{
+      font: 600 1em Arial    }
+}
+

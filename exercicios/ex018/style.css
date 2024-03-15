@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family:'Beverage' ;
+  src: url(fonts/LT\ Beverage.otf) format(opentype);
+}
+
+h1{
+  font-family: "Kaushan Script", cursive;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+.segundo_paragrafo{
+  font: normal 600 1em "Work Sans"
+}
+
+h3{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+span{
+  color: rgb(233, 64, 140);
+}
+
+.ap{
+  font-family: "Beverage", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

@@ -1,0 +1,88 @@
+@font-face {
+  font-family:'Love' ;
+  src: url(fonts/My\ Love.ttf) format(truetype), url(fonts/MyLove.otf) format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Beverage' ;
+  src: url(fonts/LT\ Beverage.otf) format(opentype);
+}  
+  /* 
+      Tipos de format()
+      - opentype(otf)
+      - truetype(ttf)
+      - embedded-opentype
+      - truetype-aat (Apple Advencend Typography)
+      -SGV
+  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_nav{
+  background-color: #F2C9CC;
+}
+.navegacao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1% 2%;
+}
+.logo{
+  font-family: 'Love', Times, serif;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  gap: 25%;
+  font-family: 'love';
+  list-style-type: none;
+  padding: 0% 2%;
+  color: #401515;
+  font-weight: 500;
+}
+
+span{
+  color: #401515;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Beverage';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.apresentacao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+  gap: 4%;
+  background-color: #F2C9CC;
+  color: #734F4F;
+}
+.apresentacao_texto{
+  font:normal normal 2em 'Beverage';
+}
+
+.apresentacao_img{
+  border-radius: 25px;
+}
+
+.servico{
+  background-color: #BF8773;
+}
+
+.servico_texto{
+  font-family:'Beverage';
+  text-align: center;
+  color: #F2E8E4;
+}
+

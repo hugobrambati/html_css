@@ -1,0 +1,19 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover{
+  color: red;
+}
+
+div > p{
+  display: none;
+  text-transform: uppercase;
+}
+
+div:hover > p{
+  display: block;
+  color: #ffffff;
+  background-color: red;
+  width: 300px;
+}

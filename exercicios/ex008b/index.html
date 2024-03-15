@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outras Formatações</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    @font-face {
+      font-family: 'Beverange';
+      src: url(LT\ Beverage.otf) format(opentype);
+    }
+
+    body{
+      background-image: linear-gradient(to left, #3D2E73, #7263A6, #180D40, #B7ADD9,#D7CCFF);
+    }
+
+    .primeira-sessao{
+      display: flex;
+      justify-content: space-between;
+      margin: 1.5% 15%;
+      gap: 5%
+    }
+
+    .segunda-sessao{
+      margin: 2% 25%;
+      text-align: center;
+    }
+
+    .terceira{
+      border: 1% solid #fff;
+      padding: 1%;
+    }
+
+    .terceira>h2{
+      text-align: center;
+    }
+
+    aside{
+      color: #fff;
+    }
+
+    h1{
+      font-family: 'Roboto';
+      text-align: center;
+      color: #fff;
+    }
+    h2{
+      font-family: 'Roboto';
+    }
+    p{
+      font-family: 'Inter';
+    }
+    code{
+      font-family: 'Beverange';
+    }
+    blockquote{
+      font-family: 'Beverange';
+    }
+  </style>
+</head>
+<body>
+  <h1>Outras Formatações</h1>
+
+  <section class="primeira-sessao">
+    <aside clas="primeira">
+      <h2>Codigo Fonte</h2>
+      <p>
+        O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript
+      </p>
+      <pre>
+        <code>
+      num = int(input('Digite um numero'))
+      if num % 2 == 0:
+        print(f'O número {num} é PAR)
+      else:
+        print(f'O numero {num} é IMPAR)
+      print('Fim do Programa')
+        </code>
+      </pre>
+    </aside>
+
+    <aside class="segunda">
+      <h2>Citações Simples</h2>
+      <p>
+        Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>
+      </p>
+    </aside>
+    <aside class="terceira">
+      <h2>Citações Completas</h2>
+      <p>
+        Segundo Maurício Samy Silva, no seu livro Fundamentos HTML e css:
+      
+      <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        Para enteder a escrita na linguagem HTML, a primeira coisa que devemos saber é que os diferentes contrudos das marcações devem ser escritos dentro de tags.
+      </blockquote>
+      </p>
+    </aside>
+  </section>
+    <section class="segunda-sessao">
+      
+      <aside class="quarta">
+      
+        <h2>Abreviações</h2>
+        <p>
+          Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+        </p>
+      </aside>
+      <aside class="quinta">
+        <h2>Texto invertido</h2>
+        <bdo dir="rtl">Estou aprendendo a fazer coisas em Html</bdo>
+      </aside>
+    </section>
+  
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formatação de Textos</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      background-image: linear-gradient(to right, #0F0426, #6E34BF,#180D40,#2F1D73);
+      color: #f2f2f2f2;
+      
+    }
+
+    h1{
+      font:normal bold 2em 'Roboto';
+      text-align: center;
+      padding: 2%;
+    }
+
+    div{
+
+      margin: 2% 25%;
+      border: 1px solid #f2f2f2f2;
+      border-radius: 10px;
+    }
+
+    h2{
+      font: italic normal 1.3em 'Nunito';
+      padding: 1.5%;
+      text-align: center;
+      color: #f2f2f2f2;
+    }
+    
+    p{
+      font-family: 'Montserrat';
+      text-align: center;
+      padding: 1%;
+    }
+
+    footer{
+      font-family: 'Roboto';
+      text-align: center;
+      font-size: 1em;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Principais Formatações</h1>
+  <div>
+    <h2>Negrito / Destaque</h2>
+    <p>
+      Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;. (não tem semantica)
+    </p>
+    <p>
+      Nesta frase, tenho um <strong> termo em destaque</strong> usando a tag &lt;strong&gt;.(termo semantico)
+    </p>
+    <h2>Itálico / Ênfase</h2>
+    <p>
+      Nesta frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt;. (não semantico)
+    </p>
+    <p>
+      Nesta frase temos um <em>termo em enfase</em> usando a tag &lt;em&gt;. (termo semantico)
+    </p>
+    <h2> Texto Marcado</h2>
+    <p>
+      Podemos criar també um <mark style="background-color: lawngreen;">texto marcado</mark> usando a tag &lt;mark&gt;.
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+      Estamos Ctriando um texto <big>grande</big> e um texto <small>pequeno</small> nesse paragrafo. Esse paragrafo foi feito com &lt;big&gt; e &lt;small&gt; que são tags obsoletas.
+    </p>
+    <h2>Texto Deletado</h2>
+    <p>
+      Podemos marcar <del>um texto como excluidor</del> para indicar que ele pode ser lido mas não considerado.
+    </p>
+    <h2>Texto Inserido</h2>
+    <p>
+      Podemos maracar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.
+    </p>
+    <p>
+      Existe também o <u>sublinhado</u> com a tag &lt;u&gt;(não semantico).
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>
+      Para inserir coisas do tipo x<SUP>20</SUP>+3
+    </p>
+    <h2>Texto subescrito</h2>
+    <p>
+      Para inserir coisas do tipo H<SUB>2</SUB>O
+    </p>
+  </div>
+  <footer>
+    criado por Hugo Brambati
+  </footer>
+</body>
+</html>
